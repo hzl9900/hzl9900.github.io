@@ -1,0 +1,44 @@
+minify: true
+scheme: Muse
+creative_commons:
+  license: by-nc-sa
+  sidebar: true
+  post: true
+menu:
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
+
+avatar:
+  url: /uploads/avatar.png
+
+social:
+  E-mail: mailto:hzl9900@hotmail.com || fa fa-envelope
+  GitHub: https://github.com/hzl9900 || fab fa-github
+
+social_icons:
+  icons_only: true
+
+footer:
+  since: 2021
+
+symbols_count_time:
+  item_text_total: true
+
+post_navigation: left
+
+
+math:
+  # Default (false) will load mathjax / katex script on demand.
+  # That is it only render those page which has `mathjax: true` in front-matter.
+  # If you set it to true, it will load mathjax / katex srcipt EVERY PAGE.
+  every_page: true
+
+  mathjax:
+    enable: true
+    # Available values: none | ams | all
+    tags: none
+
+  katex:
+    enable: false
+    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
+    copy_tex: false
