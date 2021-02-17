@@ -104,3 +104,10 @@ theme: pronteras
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+archive_generator:
+  per_page: 0
+  yearly: false
+  monthly: true
+  daily: false
+
