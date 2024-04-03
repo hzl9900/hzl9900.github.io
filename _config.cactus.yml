@@ -66,7 +66,7 @@ mathjax:
 
 utterances:
   enabled: true
-  repo: owner/githubrepo
+  repo: hzl9900/hzl9900.github.io
   issue_term: pathname
   label: Comment
   theme: github-light
