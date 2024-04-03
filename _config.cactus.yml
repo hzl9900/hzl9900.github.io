@@ -1,0 +1,80 @@
+#project_url: 
+direction: ltr
+  
+nav:
+  home: /
+  about: /about/
+  articles: /archives/
+  tags: /tags/
+  category: /categories/
+
+social_links:
+-
+  icon: github
+  link: http://github.com/probberechts/cactus-dark
+-
+  icon: bilibili
+  link: https://space.bilibili.com/1230171442
+-
+  icon: mail
+  link: mailto:1017110394@qq.com
+
+tags_overview: false
+posts_overview:
+  show_all_posts: false
+  post_count: 5
+  sort_updated: false
+
+archive:
+  sort_updated: false
+
+post:
+  show_updated: false
+
+copyright:
+  start_year: 2024
+  end_year: 
+
+error_404:
+  enabled: true
+  title: "404 Page Not Found"
+  description: "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+
+logo:
+  enabled: true
+  width: 50
+  height: 50
+  url: /images/logo.png
+  gravatar: false
+  grayout: true
+
+favicon:
+  desktop:
+    url: /images/favicon.ico
+    gravatar: false
+  android:
+    url: /images/favicon-192x192.png
+    gravatar: false
+  apple:
+    url: /images/apple-touch-icon.png
+    gravatar: false
+
+colorscheme: classic
+
+mathjax:
+  enabled: true
+
+utterances:
+  enabled: true
+  repo: owner/githubrepo
+  issue_term: pathname
+  label: Comment
+  theme: github-light
+
+cdn:
+  enable: true
+  jquery: https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
+  clipboard: https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js
+  font_awesome: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
+  justified_gallery_css: https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.8.1/css/justifiedGallery.min.css
+  justified_gallery_js: https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js
